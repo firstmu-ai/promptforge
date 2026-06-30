@@ -6,3 +6,5 @@ dist
 
 .vite-*.log
 .vite-job-id
+
+release-assets/
