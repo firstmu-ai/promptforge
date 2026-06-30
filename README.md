@@ -4,6 +4,10 @@ PromptForge is an open-source AI workflow template engine. It includes 120 free 
 
 PromptForge is Chinese-first, but it is not China-only. You can use it with English or other languages because modern AI models can translate, localize, and adapt the workflow output.
 
+![PromptForge web demo](docs/assets/promptforge-demo.png)
+
+![PromptForge final output](docs/assets/promptforge-result.png)
+
 ## What It Does
 
 - 120 free workflow templates
@@ -89,6 +93,10 @@ This open-source edition is designed to be genuinely useful. A future Pro editio
 - import/export
 - batch workflow management
 - long-term updates
+
+Desktop/Pro direction preview:
+
+![PromptForge desktop preview](docs/assets/desktop-preview.png)
 
 ## License
 
