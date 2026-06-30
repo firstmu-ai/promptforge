@@ -1,0 +1,7005 @@
+[
+  {
+    "id": "free-001",
+    "name": "AI绘图商业海报提示词",
+    "industry": "AI绘图",
+    "scenario": "商业海报",
+    "platform": "Midjourney,即梦,可灵",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "产品_主题",
+        "label": "产品/主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "主色调",
+        "label": "主色调",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是商业海报 AI 绘图提示词专家。请把用户需求转成高质量绘图提示词，包含主体、场景、光影、构图、材质、风格、镜头、比例，并给出中文和英文两个版本。",
+    "exampleInput": {
+      "产品/主题": "请填写",
+      "风格": "请填写",
+      "主色调": "请填写",
+      "画面元素": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "商业海报",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "绘图提示词要描述画面，不要写营销口号。"
+  },
+  {
+    "id": "free-002",
+    "name": "AI头像写真提示词",
+    "industry": "AI绘图",
+    "scenario": "头像写真",
+    "platform": "Midjourney,即梦,可灵",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "人物特征",
+        "label": "人物特征",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "服装",
+        "label": "服装",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "背景",
+        "label": "背景",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "光线",
+        "label": "光线",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是 AI 写真提示词专家。请根据人物特征生成适合头像或写真图的提示词，包含构图、镜头、光线、服装、背景、质感，并提供3种风格变体。",
+    "exampleInput": {
+      "人物特征": "请填写",
+      "风格": "请填写",
+      "服装": "请填写",
+      "背景": "请填写",
+      "光线": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "头像写真",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "人物提示词要避免身份和敏感属性描述过度。"
+  },
+  {
+    "id": "free-003",
+    "name": "AI产品图提示词",
+    "industry": "AI绘图",
+    "scenario": "产品图",
+    "platform": "Midjourney,即梦,可灵",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "产品名称",
+        "label": "产品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "材质",
+        "label": "材质",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "使用场景",
+        "label": "使用场景",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "背景",
+        "label": "背景",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是电商产品图 AI 提示词专家。请生成一组产品摄影风格提示词，突出产品主体、材质、使用场景和商业质感。输出主提示词、负面提示词和3个风格版本。",
+    "exampleInput": {
+      "产品名称": "请填写",
+      "材质": "请填写",
+      "使用场景": "请填写",
+      "风格": "请填写",
+      "背景": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "产品图",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "产品图要保证主体清晰，避免背景抢戏。"
+  },
+  {
+    "id": "free-004",
+    "name": "AI短视频分镜画面提示词",
+    "industry": "AI绘图",
+    "scenario": "分镜画面",
+    "platform": "Midjourney,即梦,可灵",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "故事主题",
+        "label": "故事主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "角色",
+        "label": "角色",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "场景",
+        "label": "场景",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "镜头数量",
+        "label": "镜头数量",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是 AI 分镜美术指导。请根据故事主题生成连续分镜画面提示词，每个镜头包含画面、构图、角色动作、光线、镜头语言和风格一致性提示。",
+    "exampleInput": {
+      "故事主题": "请填写",
+      "角色": "请填写",
+      "场景": "请填写",
+      "镜头数量": "请填写",
+      "风格": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "分镜画面",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "连续分镜要保持角色和风格一致。"
+  },
+  {
+    "id": "free-005",
+    "name": "AI绘图商业海报",
+    "industry": "AI绘图",
+    "scenario": "商业海报",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「商业海报」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "商业海报",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的商业海报场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-006",
+    "name": "AI绘图产品摄影",
+    "industry": "AI绘图",
+    "scenario": "产品摄影",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「产品摄影」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "产品摄影",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的产品摄影场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-007",
+    "name": "AI绘图人物写真",
+    "industry": "AI绘图",
+    "scenario": "人物写真",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「人物写真」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "人物写真",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的人物写真场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-008",
+    "name": "AI绘图头像生成",
+    "industry": "AI绘图",
+    "scenario": "头像生成",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「头像生成」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "头像生成",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的头像生成场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-009",
+    "name": "AI绘图电商主图",
+    "industry": "AI绘图",
+    "scenario": "电商主图",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「电商主图」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "电商主图",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的电商主图场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-010",
+    "name": "AI绘图详情页场景图",
+    "industry": "AI绘图",
+    "scenario": "详情页场景图",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「详情页场景图」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "详情页场景图",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的详情页场景图场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-011",
+    "name": "AI绘图短视频分镜",
+    "industry": "AI绘图",
+    "scenario": "短视频分镜",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「短视频分镜」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "短视频分镜",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的短视频分镜场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-012",
+    "name": "AI绘图IP 角色",
+    "industry": "AI绘图",
+    "scenario": "IP 角色",
+    "platform": "Midjourney,即梦,可灵,Stable Diffusion",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "主体",
+        "label": "主体",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "画面元素",
+        "label": "画面元素",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "色彩",
+        "label": "色彩",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "比例",
+        "label": "比例",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是AI 视觉提示词导演。请围绕「IP 角色」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合AI绘图的真实使用场景和Midjourney,即梦,可灵,Stable Diffusion平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主体": "请填写",
+      "风格": "请填写",
+      "画面元素": "请填写",
+      "色彩": "请填写",
+      "比例": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "AI绘图",
+      "IP 角色",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于AI绘图的IP 角色场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-013",
+    "name": "闲鱼爆款标题生成",
+    "industry": "闲鱼卖货",
+    "scenario": "商品标题",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "品牌型号",
+        "label": "品牌型号",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "成色",
+        "label": "成色",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易文案专家。根据用户提供的商品信息，生成10个适合闲鱼搜索和点击的标题。标题要口语化、有卖点、避免夸大和违禁词。输出：1）10个标题；2）推荐使用的3个；3）每个推荐标题的理由。",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "品牌型号": "请填写",
+      "成色": "请填写",
+      "核心卖点": "请填写",
+      "目标买家": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "商品标题",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "不要堆砌关键词，标题里保留品牌、型号、成色和强卖点。"
+  },
+  {
+    "id": "free-014",
+    "name": "闲鱼商品详情页文案",
+    "industry": "闲鱼卖货",
+    "scenario": "商品详情",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "购买时间",
+        "label": "购买时间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "使用情况",
+        "label": "使用情况",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "瑕疵说明",
+        "label": "瑕疵说明",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "期望价格",
+        "label": "期望价格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "赠品",
+        "label": "赠品",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼成交文案顾问。请把用户提供的商品信息整理成一段真实、可信、容易成交的详情页文案。要求：开头说明卖点，中段讲清楚成色和瑕疵，结尾引导咨询。语气自然，不要像广告。",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "购买时间": "请填写",
+      "使用情况": "请填写",
+      "瑕疵说明": "请填写",
+      "期望价格": "请填写",
+      "赠品": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "商品详情",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "二手交易最重要是真实，瑕疵要主动说清楚。"
+  },
+  {
+    "id": "free-015",
+    "name": "闲鱼定价话术",
+    "industry": "闲鱼卖货",
+    "scenario": "定价策略",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "原价",
+        "label": "原价",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "购入时间",
+        "label": "购入时间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "成色",
+        "label": "成色",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "市场参考价",
+        "label": "市场参考价",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "最低可接受价",
+        "label": "最低可接受价",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是二手商品定价顾问。请根据商品原价、成色、时间和市场参考价，给出闲鱼挂牌价、可小刀区间、底价，以及面对砍价时的3段回复话术。",
+    "exampleInput": {
+      "原价": "请填写",
+      "购入时间": "请填写",
+      "成色": "请填写",
+      "市场参考价": "请填写",
+      "最低可接受价": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "定价策略",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "把挂牌价、心理价和底价分开。"
+  },
+  {
+    "id": "free-016",
+    "name": "闲鱼买家砍价回复",
+    "industry": "闲鱼卖货",
+    "scenario": "客服回复",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "买家报价",
+        "label": "买家报价",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "你的底价",
+        "label": "你的底价",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品优势",
+        "label": "商品优势",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼卖家客服。请根据买家的砍价内容，生成5条礼貌但能守住价格的回复。语气自然，不卑不亢，可以适当给出小让步但不要显得急卖。",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "买家报价": "请填写",
+      "你的底价": "请填写",
+      "商品优势": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "客服回复",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "回复要给理由，不要只说“不行”。"
+  },
+  {
+    "id": "free-017",
+    "name": "闲鱼多件打包销售话术",
+    "industry": "闲鱼卖货",
+    "scenario": "组合销售",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主商品",
+        "label": "主商品",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "可搭配商品",
+        "label": "可搭配商品",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "单买价格",
+        "label": "单买价格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "打包价格",
+        "label": "打包价格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "优惠理由",
+        "label": "优惠理由",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼组合销售顾问。请帮我设计一套多件打包销售话术，包括标题、详情页补充说明、私聊推荐语和买家犹豫时的促单回复。",
+    "exampleInput": {
+      "主商品": "请填写",
+      "可搭配商品": "请填写",
+      "单买价格": "请填写",
+      "打包价格": "请填写",
+      "优惠理由": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "组合销售",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "打包要突出省邮费、省时间和一次配齐。"
+  },
+  {
+    "id": "free-018",
+    "name": "小红书标题钩子生成",
+    "industry": "小红书文案",
+    "scenario": "标题",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "风格",
+        "label": "风格",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "关键词",
+        "label": "关键词",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书爆款标题策划。请围绕主题生成20个标题，分为痛点型、结果型、反差型、清单型、避坑型。标题要自然、有点击欲，不要过度夸张。",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "风格": "请填写",
+      "关键词": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "标题",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "标题要有具体对象和具体结果。"
+  },
+  {
+    "id": "free-019",
+    "name": "小红书种草笔记",
+    "industry": "小红书文案",
+    "scenario": "种草笔记",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "产品_主题",
+        "label": "产品/主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "使用前问题",
+        "label": "使用前问题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "使用后变化",
+        "label": "使用后变化",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "真实体验",
+        "label": "真实体验",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书真实种草博主。请写一篇像真人分享的小红书笔记，包含开头钩子、个人场景、使用过程、优缺点、适合人群、结尾互动。语气真诚，不要硬广。",
+    "exampleInput": {
+      "产品/主题": "请填写",
+      "使用前问题": "请填写",
+      "使用后变化": "请填写",
+      "真实体验": "请填写",
+      "目标人群": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "种草笔记",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "真实感比华丽词更重要。"
+  },
+  {
+    "id": "free-020",
+    "name": "小红书图文笔记大纲",
+    "industry": "小红书文案",
+    "scenario": "图文大纲",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "图片数量",
+        "label": "图片数量",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "想传达的重点",
+        "label": "想传达的重点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书图文策划。请按图片页数输出每一页的标题、画面建议、正文要点和封面文案。要求用户可以直接照着做图。",
+    "exampleInput": {
+      "主题": "请填写",
+      "图片数量": "请填写",
+      "目标人群": "请填写",
+      "想传达的重点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "图文大纲",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "每页只讲一个重点。"
+  },
+  {
+    "id": "free-021",
+    "name": "小红书评论区互动回复",
+    "industry": "小红书文案",
+    "scenario": "评论回复",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "笔记主题",
+        "label": "笔记主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "评论内容",
+        "label": "评论内容",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "回复目的",
+        "label": "回复目的",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书账号运营。请根据评论内容生成8条不同语气的回复，包括亲切型、专业型、幽默型、引导私信型。回复要自然，避免营销感。",
+    "exampleInput": {
+      "笔记主题": "请填写",
+      "评论内容": "请填写",
+      "账号人设": "请填写",
+      "回复目的": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "评论回复",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "评论回复要继续制造互动。"
+  },
+  {
+    "id": "free-022",
+    "name": "小红书账号定位拆解",
+    "industry": "小红书文案",
+    "scenario": "账号定位",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "擅长领域",
+        "label": "擅长领域",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标用户",
+        "label": "目标用户",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "可持续内容",
+        "label": "可持续内容",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "变现方向",
+        "label": "变现方向",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书账号定位顾问。请帮我拆解账号定位，包括人设一句话、目标用户、内容栏目、前30篇选题、变现路径和主页简介。",
+    "exampleInput": {
+      "擅长领域": "请填写",
+      "目标用户": "请填写",
+      "可持续内容": "请填写",
+      "变现方向": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "账号定位",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "定位必须能持续产出内容。"
+  },
+  {
+    "id": "free-023",
+    "name": "抖音前三秒钩子",
+    "industry": "抖音脚本",
+    "scenario": "短视频开头",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "最终结果",
+        "label": "最终结果",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导。请为这个主题生成20个前三秒开头钩子，分为反差、悬念、痛点、结果、提问五类。每个钩子要口语化，适合直接念出来。",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "最终结果": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "短视频开头",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "前三秒只负责让人停下，不要塞太多信息。"
+  },
+  {
+    "id": "free-024",
+    "name": "抖音口播脚本",
+    "industry": "抖音脚本",
+    "scenario": "口播脚本",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "人设",
+        "label": "人设",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是抖音口播脚本策划。请生成一条适合真人口播的视频脚本，包含开头钩子、主体三段、案例、结尾引导。语言短句化，便于拍摄。",
+    "exampleInput": {
+      "主题": "请填写",
+      "时长": "请填写",
+      "人设": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "口播脚本",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "每句话尽量短，减少书面语。"
+  },
+  {
+    "id": "free-025",
+    "name": "抖音分镜脚本",
+    "industry": "抖音脚本",
+    "scenario": "分镜",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "拍摄场景",
+        "label": "拍摄场景",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "人物_产品",
+        "label": "人物/产品",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频分镜导演。请输出表格形式的分镜脚本，包括镜头序号、时长、画面、台词、字幕、音效/转场建议。",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "拍摄场景": "请填写",
+      "人物/产品": "请填写",
+      "时长": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "分镜",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "分镜要能直接指导拍摄。"
+  },
+  {
+    "id": "free-026",
+    "name": "抖音直播开场话术",
+    "industry": "抖音脚本",
+    "scenario": "直播话术",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "直播主题",
+        "label": "直播主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_服务",
+        "label": "产品/服务",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "优惠机制",
+        "label": "优惠机制",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是直播间话术策划。请生成一套直播开场5分钟话术，包括欢迎、停留理由、产品铺垫、互动问题、福利引导。语气自然，不要夸张喊麦。",
+    "exampleInput": {
+      "直播主题": "请填写",
+      "产品/服务": "请填写",
+      "目标观众": "请填写",
+      "优惠机制": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "直播话术",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "开场要先给停留理由。"
+  },
+  {
+    "id": "free-027",
+    "name": "电商售前咨询回复",
+    "industry": "电商客服",
+    "scenario": "售前客服",
+    "platform": "淘宝,拼多多,京东",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "客户问题",
+        "label": "客户问题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品卖点",
+        "label": "商品卖点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "优惠政策",
+        "label": "优惠政策",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是电商金牌客服。请根据客户问题生成5条售前回复，要求礼貌、清楚、有转化意识。输出短回复、详细回复和促单版回复。",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "客户问题": "请填写",
+      "商品卖点": "请填写",
+      "优惠政策": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "电商客服",
+      "售前客服",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "客服回复要减少客户决策成本。"
+  },
+  {
+    "id": "free-028",
+    "name": "电商售后安抚话术",
+    "industry": "电商客服",
+    "scenario": "售后客服",
+    "platform": "淘宝,拼多多,京东",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "问题类型",
+        "label": "问题类型",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "客户情绪",
+        "label": "客户情绪",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "订单情况",
+        "label": "订单情况",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "可提供方案",
+        "label": "可提供方案",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是电商售后客服主管。请生成一套安抚客户的话术，先共情，再确认问题，再给解决方案。避免推责，语气稳定。",
+    "exampleInput": {
+      "问题类型": "请填写",
+      "客户情绪": "请填写",
+      "订单情况": "请填写",
+      "可提供方案": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "电商客服",
+      "售后客服",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "售后先处理情绪，再处理问题。"
+  },
+  {
+    "id": "free-029",
+    "name": "电商好评引导",
+    "industry": "电商客服",
+    "scenario": "评价运营",
+    "platform": "淘宝,拼多多,京东",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "客户购买体验",
+        "label": "客户购买体验",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "可赠福利",
+        "label": "可赠福利",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "店铺语气",
+        "label": "店铺语气",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是电商评价运营。请生成8条好评引导话术，要求自然、不过度打扰，并区分确认收货前、签收后、复购后三个节点。",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "客户购买体验": "请填写",
+      "可赠福利": "请填写",
+      "店铺语气": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "电商客服",
+      "评价运营",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "不要强迫客户评价。"
+  },
+  {
+    "id": "free-030",
+    "name": "电商商品卖点提炼",
+    "industry": "电商客服",
+    "scenario": "商品卖点",
+    "platform": "淘宝,拼多多,京东",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心功能",
+        "label": "核心功能",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "竞品差异",
+        "label": "竞品差异",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格带",
+        "label": "价格带",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是电商商品策划。请提炼商品卖点，输出主卖点、辅助卖点、详情页模块、客服常用解释和一句话转化文案。",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "核心功能": "请填写",
+      "目标人群": "请填写",
+      "竞品差异": "请填写",
+      "价格带": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "电商客服",
+      "商品卖点",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "卖点要和目标人群痛点对应。"
+  },
+  {
+    "id": "free-031",
+    "name": "简历经历润色",
+    "industry": "简历面试",
+    "scenario": "简历优化",
+    "platform": "求职",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "岗位目标",
+        "label": "岗位目标",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "原始经历",
+        "label": "原始经历",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "项目成果",
+        "label": "项目成果",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "量化数据",
+        "label": "量化数据",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "技能关键词",
+        "label": "技能关键词",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是资深简历顾问。请把原始经历润色成适合目标岗位的简历项目描述，突出动作、方法、结果和量化指标。输出优化版、关键词版和面试追问点。",
+    "exampleInput": {
+      "岗位目标": "请填写",
+      "原始经历": "请填写",
+      "项目成果": "请填写",
+      "量化数据": "请填写",
+      "技能关键词": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "简历面试",
+      "简历优化",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "简历要具体，不要空泛形容词。"
+  },
+  {
+    "id": "free-032",
+    "name": "面试问题回答框架",
+    "industry": "简历面试",
+    "scenario": "面试回答",
+    "platform": "求职",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "面试问题",
+        "label": "面试问题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "个人经历",
+        "label": "个人经历",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标岗位",
+        "label": "目标岗位",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "想突出能力",
+        "label": "想突出能力",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是面试教练。请根据问题和经历，用 STAR 法生成一段自然的面试回答，并给出精简版、详细版和可能追问。",
+    "exampleInput": {
+      "面试问题": "请填写",
+      "个人经历": "请填写",
+      "目标岗位": "请填写",
+      "想突出能力": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "简历面试",
+      "面试回答",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "回答要像真人说话，不要背稿感太强。"
+  },
+  {
+    "id": "free-033",
+    "name": "求职岗位匹配分析",
+    "industry": "简历面试",
+    "scenario": "岗位分析",
+    "platform": "求职",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "岗位JD",
+        "label": "岗位JD",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "个人背景",
+        "label": "个人背景",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "技能清单",
+        "label": "技能清单",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "求职目标",
+        "label": "求职目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是职业规划顾问。请分析岗位JD和个人背景的匹配度，输出优势、不足、简历修改建议、面试准备清单和补强路线。",
+    "exampleInput": {
+      "岗位JD": "请填写",
+      "个人背景": "请填写",
+      "技能清单": "请填写",
+      "求职目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "简历面试",
+      "岗位分析",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "先看 JD 关键词，再改简历。"
+  },
+  {
+    "id": "free-034",
+    "name": "公文通知生成",
+    "industry": "公文写作",
+    "scenario": "通知公告",
+    "platform": "办公",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "通知主题",
+        "label": "通知主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "对象",
+        "label": "对象",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时间地点",
+        "label": "时间地点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "事项要求",
+        "label": "事项要求",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "落款单位",
+        "label": "落款单位",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是公文写作助手。请根据提供信息生成一份规范、简洁、正式的通知，包含标题、正文、事项列表、注意事项和落款。",
+    "exampleInput": {
+      "通知主题": "请填写",
+      "对象": "请填写",
+      "时间地点": "请填写",
+      "事项要求": "请填写",
+      "落款单位": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "公文写作",
+      "通知公告",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "公文要明确对象、时间、事项和责任。"
+  },
+  {
+    "id": "free-035",
+    "name": "工作总结提纲",
+    "industry": "公文写作",
+    "scenario": "工作总结",
+    "platform": "办公",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "时间范围",
+        "label": "时间范围",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "主要工作",
+        "label": "主要工作",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "成果数据",
+        "label": "成果数据",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "问题不足",
+        "label": "问题不足",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "下阶段计划",
+        "label": "下阶段计划",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是工作总结写作顾问。请生成一份结构清晰的工作总结，包含总体概述、重点工作、成果数据、问题反思和下一步计划。",
+    "exampleInput": {
+      "时间范围": "请填写",
+      "主要工作": "请填写",
+      "成果数据": "请填写",
+      "问题不足": "请填写",
+      "下阶段计划": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "公文写作",
+      "工作总结",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "总结要有数据和具体案例。"
+  },
+  {
+    "id": "free-036",
+    "name": "代码报错分析提示词",
+    "industry": "编程开发",
+    "scenario": "调试",
+    "platform": "开发",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "编程语言",
+        "label": "编程语言",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "报错信息",
+        "label": "报错信息",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "相关代码",
+        "label": "相关代码",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "预期行为",
+        "label": "预期行为",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "已尝试方法",
+        "label": "已尝试方法",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是资深软件工程师。请根据报错信息和代码，分析可能原因，给出排查步骤、最小修复方案和需要补充的信息。不要直接大改架构。",
+    "exampleInput": {
+      "编程语言": "请填写",
+      "报错信息": "请填写",
+      "相关代码": "请填写",
+      "预期行为": "请填写",
+      "已尝试方法": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "编程开发",
+      "调试",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "先让模型定位原因，再让它改代码。"
+  },
+  {
+    "id": "free-037",
+    "name": "功能需求转开发任务",
+    "industry": "编程开发",
+    "scenario": "需求拆解",
+    "platform": "开发",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "功能描述",
+        "label": "功能描述",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "用户角色",
+        "label": "用户角色",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "业务规则",
+        "label": "业务规则",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "边界情况",
+        "label": "边界情况",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "技术限制",
+        "label": "技术限制",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是产品和技术双背景的需求分析师。请把功能描述拆成用户故事、页面/接口需求、数据字段、边界情况、验收标准和开发任务清单。",
+    "exampleInput": {
+      "功能描述": "请填写",
+      "用户角色": "请填写",
+      "业务规则": "请填写",
+      "边界情况": "请填写",
+      "技术限制": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "编程开发",
+      "需求拆解",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "需求拆解要能直接进入开发。"
+  },
+  {
+    "id": "free-038",
+    "name": "自媒体选题库生成",
+    "industry": "自媒体选题",
+    "scenario": "选题策划",
+    "platform": "公众号,小红书,抖音",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "账号领域",
+        "label": "账号领域",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "近期热点",
+        "label": "近期热点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "变现方向",
+        "label": "变现方向",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "内容风格",
+        "label": "内容风格",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是自媒体选题策划。请生成30个选题，按引流、信任、转化、互动四类拆分。每个选题包含标题、核心观点、适合平台和内容形式。",
+    "exampleInput": {
+      "账号领域": "请填写",
+      "目标人群": "请填写",
+      "近期热点": "请填写",
+      "变现方向": "请填写",
+      "内容风格": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "自媒体选题",
+      "选题策划",
+      "体验版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "选题要服务账号定位，不要只追热点。"
+  },
+  {
+    "id": "free-039",
+    "name": "闲鱼卖货标题优化",
+    "industry": "闲鱼卖货",
+    "scenario": "标题优化",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「标题优化」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "标题优化",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的标题优化场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-040",
+    "name": "闲鱼卖货详情页改写",
+    "industry": "闲鱼卖货",
+    "scenario": "详情页改写",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「详情页改写」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "详情页改写",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的详情页改写场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-041",
+    "name": "闲鱼卖货砍价回复",
+    "industry": "闲鱼卖货",
+    "scenario": "砍价回复",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「砍价回复」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "砍价回复",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的砍价回复场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-042",
+    "name": "闲鱼卖货催付款话术",
+    "industry": "闲鱼卖货",
+    "scenario": "催付款话术",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「催付款话术」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "催付款话术",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的催付款话术场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-043",
+    "name": "闲鱼卖货同城自提说明",
+    "industry": "闲鱼卖货",
+    "scenario": "同城自提说明",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「同城自提说明」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "同城自提说明",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的同城自提说明场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-044",
+    "name": "闲鱼卖货瑕疵说明",
+    "industry": "闲鱼卖货",
+    "scenario": "瑕疵说明",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「瑕疵说明」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "瑕疵说明",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的瑕疵说明场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-045",
+    "name": "闲鱼卖货降价促销",
+    "industry": "闲鱼卖货",
+    "scenario": "降价促销",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「降价促销」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "降价促销",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的降价促销场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-046",
+    "name": "闲鱼卖货打包销售",
+    "industry": "闲鱼卖货",
+    "scenario": "打包销售",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「打包销售」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "打包销售",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的打包销售场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-047",
+    "name": "闲鱼卖货买家画像分析",
+    "industry": "闲鱼卖货",
+    "scenario": "买家画像分析",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「买家画像分析」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "买家画像分析",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的买家画像分析场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-048",
+    "name": "闲鱼卖货关键词布局",
+    "industry": "闲鱼卖货",
+    "scenario": "关键词布局",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「关键词布局」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "关键词布局",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的关键词布局场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-049",
+    "name": "闲鱼卖货商品卖点提炼",
+    "industry": "闲鱼卖货",
+    "scenario": "商品卖点提炼",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「商品卖点提炼」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "商品卖点提炼",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的商品卖点提炼场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-050",
+    "name": "闲鱼卖货私聊转化",
+    "industry": "闲鱼卖货",
+    "scenario": "私聊转化",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「私聊转化」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "私聊转化",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的私聊转化场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-051",
+    "name": "闲鱼卖货收藏用户唤醒",
+    "industry": "闲鱼卖货",
+    "scenario": "收藏用户唤醒",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「收藏用户唤醒」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "收藏用户唤醒",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的收藏用户唤醒场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-052",
+    "name": "闲鱼卖货竞品对比",
+    "industry": "闲鱼卖货",
+    "scenario": "竞品对比",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「竞品对比」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "竞品对比",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的竞品对比场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-053",
+    "name": "闲鱼卖货售后说明",
+    "industry": "闲鱼卖货",
+    "scenario": "售后说明",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「售后说明」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "售后说明",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的售后说明场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-054",
+    "name": "闲鱼卖货高客单价解释",
+    "industry": "闲鱼卖货",
+    "scenario": "高客单价解释",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「高客单价解释」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "高客单价解释",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的高客单价解释场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-055",
+    "name": "闲鱼卖货验机流程说明",
+    "industry": "闲鱼卖货",
+    "scenario": "验机流程说明",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「验机流程说明」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "验机流程说明",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的验机流程说明场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-056",
+    "name": "闲鱼卖货发货承诺",
+    "industry": "闲鱼卖货",
+    "scenario": "发货承诺",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「发货承诺」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "发货承诺",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的发货承诺场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-057",
+    "name": "闲鱼卖货闲置清仓",
+    "industry": "闲鱼卖货",
+    "scenario": "闲置清仓",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「闲置清仓」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "闲置清仓",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的闲置清仓场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-058",
+    "name": "闲鱼卖货账号主页简介",
+    "industry": "闲鱼卖货",
+    "scenario": "账号主页简介",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「账号主页简介」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "账号主页简介",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的账号主页简介场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-059",
+    "name": "闲鱼卖货爆款案例复盘",
+    "industry": "闲鱼卖货",
+    "scenario": "爆款案例复盘",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「爆款案例复盘」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "爆款案例复盘",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的爆款案例复盘场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-060",
+    "name": "闲鱼卖货商品重发策略",
+    "industry": "闲鱼卖货",
+    "scenario": "商品重发策略",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「商品重发策略」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "商品重发策略",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的商品重发策略场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-061",
+    "name": "闲鱼卖货图片拍摄清单",
+    "industry": "闲鱼卖货",
+    "scenario": "图片拍摄清单",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「图片拍摄清单」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "图片拍摄清单",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的图片拍摄清单场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-062",
+    "name": "闲鱼卖货交易风险提醒",
+    "industry": "闲鱼卖货",
+    "scenario": "交易风险提醒",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「交易风险提醒」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "交易风险提醒",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的交易风险提醒场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-063",
+    "name": "闲鱼卖货新手卖家 SOP",
+    "industry": "闲鱼卖货",
+    "scenario": "新手卖家 SOP",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「新手卖家 SOP」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "新手卖家 SOP",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的新手卖家 SOP场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-064",
+    "name": "闲鱼卖货议价底线设计",
+    "industry": "闲鱼卖货",
+    "scenario": "议价底线设计",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「议价底线设计」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "议价底线设计",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的议价底线设计场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-065",
+    "name": "闲鱼卖货买家异议处理",
+    "industry": "闲鱼卖货",
+    "scenario": "买家异议处理",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「买家异议处理」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "买家异议处理",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的买家异议处理场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-066",
+    "name": "闲鱼卖货发布前检查",
+    "industry": "闲鱼卖货",
+    "scenario": "发布前检查",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「发布前检查」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "发布前检查",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的发布前检查场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-067",
+    "name": "闲鱼卖货多平台改写",
+    "industry": "闲鱼卖货",
+    "scenario": "多平台改写",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「多平台改写」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "多平台改写",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的多平台改写场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-068",
+    "name": "闲鱼卖货成交复盘",
+    "industry": "闲鱼卖货",
+    "scenario": "成交复盘",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「成交复盘」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "成交复盘",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的成交复盘场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-069",
+    "name": "闲鱼卖货节日促销文案",
+    "industry": "闲鱼卖货",
+    "scenario": "节日促销文案",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「节日促销文案」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "节日促销文案",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的节日促销文案场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-070",
+    "name": "闲鱼卖货高频问题回复",
+    "industry": "闲鱼卖货",
+    "scenario": "高频问题回复",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「高频问题回复」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "高频问题回复",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的高频问题回复场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-071",
+    "name": "闲鱼卖货真假/保修解释",
+    "industry": "闲鱼卖货",
+    "scenario": "真假/保修解释",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「真假/保修解释」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "真假/保修解释",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的真假/保修解释场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-072",
+    "name": "闲鱼卖货收藏转咨询",
+    "industry": "闲鱼卖货",
+    "scenario": "收藏转咨询",
+    "platform": "闲鱼",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "商品名称",
+        "label": "商品名称",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标买家",
+        "label": "目标买家",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "商品现状",
+        "label": "商品现状",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "价格区间",
+        "label": "价格区间",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心卖点",
+        "label": "核心卖点",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是闲鱼二手交易运营顾问。请围绕「收藏转咨询」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合闲鱼卖货的真实使用场景和闲鱼平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "商品名称": "请填写",
+      "目标买家": "请填写",
+      "商品现状": "请填写",
+      "价格区间": "请填写",
+      "核心卖点": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "闲鱼卖货",
+      "收藏转咨询",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于闲鱼卖货的收藏转咨询场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-073",
+    "name": "小红书文案爆款标题",
+    "industry": "小红书文案",
+    "scenario": "爆款标题",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「爆款标题」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "爆款标题",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的爆款标题场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-074",
+    "name": "小红书文案种草笔记",
+    "industry": "小红书文案",
+    "scenario": "种草笔记",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「种草笔记」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "种草笔记",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的种草笔记场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-075",
+    "name": "小红书文案测评笔记",
+    "industry": "小红书文案",
+    "scenario": "测评笔记",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「测评笔记」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "测评笔记",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的测评笔记场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-076",
+    "name": "小红书文案避坑笔记",
+    "industry": "小红书文案",
+    "scenario": "避坑笔记",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「避坑笔记」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "避坑笔记",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的避坑笔记场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-077",
+    "name": "小红书文案合集清单",
+    "industry": "小红书文案",
+    "scenario": "合集清单",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「合集清单」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "合集清单",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的合集清单场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-078",
+    "name": "小红书文案账号定位",
+    "industry": "小红书文案",
+    "scenario": "账号定位",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「账号定位」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "账号定位",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的账号定位场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-079",
+    "name": "小红书文案主页简介",
+    "industry": "小红书文案",
+    "scenario": "主页简介",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「主页简介」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "主页简介",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的主页简介场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-080",
+    "name": "小红书文案评论区回复",
+    "industry": "小红书文案",
+    "scenario": "评论区回复",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「评论区回复」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "评论区回复",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的评论区回复场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-081",
+    "name": "小红书文案私信引导",
+    "industry": "小红书文案",
+    "scenario": "私信引导",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「私信引导」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "私信引导",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的私信引导场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-082",
+    "name": "小红书文案封面文案",
+    "industry": "小红书文案",
+    "scenario": "封面文案",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「封面文案」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "封面文案",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的封面文案场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-083",
+    "name": "小红书文案图文分镜",
+    "industry": "小红书文案",
+    "scenario": "图文分镜",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「图文分镜」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "图文分镜",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的图文分镜场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-084",
+    "name": "小红书文案选题日历",
+    "industry": "小红书文案",
+    "scenario": "选题日历",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「选题日历」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "选题日历",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的选题日历场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-085",
+    "name": "小红书文案热点借势",
+    "industry": "小红书文案",
+    "scenario": "热点借势",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「热点借势」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "热点借势",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的热点借势场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-086",
+    "name": "小红书文案爆款复盘",
+    "industry": "小红书文案",
+    "scenario": "爆款复盘",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「爆款复盘」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "爆款复盘",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的爆款复盘场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-087",
+    "name": "小红书文案带货软文",
+    "industry": "小红书文案",
+    "scenario": "带货软文",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「带货软文」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "带货软文",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的带货软文场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-088",
+    "name": "小红书文案探店笔记",
+    "industry": "小红书文案",
+    "scenario": "探店笔记",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「探店笔记」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "探店笔记",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的探店笔记场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-089",
+    "name": "小红书文案生活方式分享",
+    "industry": "小红书文案",
+    "scenario": "生活方式分享",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「生活方式分享」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "生活方式分享",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的生活方式分享场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-090",
+    "name": "小红书文案干货教程",
+    "industry": "小红书文案",
+    "scenario": "干货教程",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「干货教程」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "干货教程",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的干货教程场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-091",
+    "name": "小红书文案人设故事",
+    "industry": "小红书文案",
+    "scenario": "人设故事",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「人设故事」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "人设故事",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的人设故事场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-092",
+    "name": "小红书文案品牌合作 brief",
+    "industry": "小红书文案",
+    "scenario": "品牌合作 brief",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「品牌合作 brief」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "品牌合作 brief",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的品牌合作 brief场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-093",
+    "name": "小红书文案产品卖点拆解",
+    "industry": "小红书文案",
+    "scenario": "产品卖点拆解",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「产品卖点拆解」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "产品卖点拆解",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的产品卖点拆解场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-094",
+    "name": "小红书文案负面评论处理",
+    "industry": "小红书文案",
+    "scenario": "负面评论处理",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「负面评论处理」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "负面评论处理",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的负面评论处理场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-095",
+    "name": "小红书文案关键词 SEO",
+    "industry": "小红书文案",
+    "scenario": "关键词 SEO",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「关键词 SEO」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "关键词 SEO",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的关键词 SEO场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-096",
+    "name": "小红书文案低粉账号起号",
+    "industry": "小红书文案",
+    "scenario": "低粉账号起号",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「低粉账号起号」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "低粉账号起号",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的低粉账号起号场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-097",
+    "name": "小红书文案矩阵号内容",
+    "industry": "小红书文案",
+    "scenario": "矩阵号内容",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「矩阵号内容」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "矩阵号内容",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的矩阵号内容场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-098",
+    "name": "小红书文案直播预告",
+    "industry": "小红书文案",
+    "scenario": "直播预告",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「直播预告」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "直播预告",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的直播预告场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-099",
+    "name": "小红书文案合集标题",
+    "industry": "小红书文案",
+    "scenario": "合集标题",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「合集标题」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "合集标题",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的合集标题场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-100",
+    "name": "小红书文案首图脚本",
+    "industry": "小红书文案",
+    "scenario": "首图脚本",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「首图脚本」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "首图脚本",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的首图脚本场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-101",
+    "name": "小红书文案转化话术",
+    "industry": "小红书文案",
+    "scenario": "转化话术",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「转化话术」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "转化话术",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的转化话术场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-102",
+    "name": "小红书文案粉丝互动问题",
+    "industry": "小红书文案",
+    "scenario": "粉丝互动问题",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「粉丝互动问题」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "粉丝互动问题",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的粉丝互动问题场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-103",
+    "name": "小红书文案复购引导",
+    "industry": "小红书文案",
+    "scenario": "复购引导",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「复购引导」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "复购引导",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的复购引导场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-104",
+    "name": "小红书文案案例包装",
+    "industry": "小红书文案",
+    "scenario": "案例包装",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「案例包装」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "案例包装",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的案例包装场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-105",
+    "name": "小红书文案内容栏目设计",
+    "industry": "小红书文案",
+    "scenario": "内容栏目设计",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「内容栏目设计」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "内容栏目设计",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的内容栏目设计场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-106",
+    "name": "小红书文案账号周报",
+    "industry": "小红书文案",
+    "scenario": "账号周报",
+    "platform": "小红书",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "主题",
+        "label": "主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标人群",
+        "label": "目标人群",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "痛点",
+        "label": "痛点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "产品_观点",
+        "label": "产品/观点",
+        "type": "textarea",
+        "required": true
+      },
+      {
+        "key": "账号人设",
+        "label": "账号人设",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是小红书内容增长策划。请围绕「账号周报」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合小红书文案的真实使用场景和小红书平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "主题": "请填写",
+      "目标人群": "请填写",
+      "痛点": "请填写",
+      "产品/观点": "请填写",
+      "账号人设": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "小红书文案",
+      "账号周报",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于小红书文案的账号周报场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-107",
+    "name": "抖音脚本前三秒钩子",
+    "industry": "抖音脚本",
+    "scenario": "前三秒钩子",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「前三秒钩子」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "前三秒钩子",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的前三秒钩子场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-108",
+    "name": "抖音脚本口播脚本",
+    "industry": "抖音脚本",
+    "scenario": "口播脚本",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "入门",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「口播脚本」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "口播脚本",
+      "行业版"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的口播脚本场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-109",
+    "name": "抖音脚本分镜脚本",
+    "industry": "抖音脚本",
+    "scenario": "分镜脚本",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「分镜脚本」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "分镜脚本",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的分镜脚本场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-110",
+    "name": "抖音脚本直播开场",
+    "industry": "抖音脚本",
+    "scenario": "直播开场",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「直播开场」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "直播开场",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的直播开场场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-111",
+    "name": "抖音脚本直播转化",
+    "industry": "抖音脚本",
+    "scenario": "直播转化",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「直播转化」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "直播转化",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的直播转化场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-112",
+    "name": "抖音脚本短剧反转",
+    "industry": "抖音脚本",
+    "scenario": "短剧反转",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「短剧反转」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "短剧反转",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的短剧反转场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-113",
+    "name": "抖音脚本知识分享",
+    "industry": "抖音脚本",
+    "scenario": "知识分享",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「知识分享」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "知识分享",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的知识分享场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-114",
+    "name": "抖音脚本产品种草",
+    "industry": "抖音脚本",
+    "scenario": "产品种草",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「产品种草」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "产品种草",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的产品种草场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-115",
+    "name": "抖音脚本测评视频",
+    "industry": "抖音脚本",
+    "scenario": "测评视频",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「测评视频」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "测评视频",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的测评视频场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-116",
+    "name": "抖音脚本同城获客",
+    "industry": "抖音脚本",
+    "scenario": "同城获客",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「同城获客」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "同城获客",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的同城获客场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-117",
+    "name": "抖音脚本账号人设",
+    "industry": "抖音脚本",
+    "scenario": "账号人设",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「账号人设」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "账号人设",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的账号人设场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-118",
+    "name": "抖音脚本评论区神回复",
+    "industry": "抖音脚本",
+    "scenario": "评论区神回复",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「评论区神回复」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "评论区神回复",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的评论区神回复场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-119",
+    "name": "抖音脚本直播间留人",
+    "industry": "抖音脚本",
+    "scenario": "直播间留人",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「直播间留人」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "直播间留人",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的直播间留人场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  },
+  {
+    "id": "free-120",
+    "name": "抖音脚本福袋互动",
+    "industry": "抖音脚本",
+    "scenario": "福袋互动",
+    "platform": "抖音",
+    "tier": "Open Source",
+    "difficulty": "进阶",
+    "variables": [
+      {
+        "key": "视频主题",
+        "label": "视频主题",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "目标观众",
+        "label": "目标观众",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "时长",
+        "label": "时长",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "核心观点",
+        "label": "核心观点",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "转化目标",
+        "label": "转化目标",
+        "type": "text",
+        "required": true
+      }
+    ],
+    "prompt": "你是短视频编导和直播运营。请围绕「福袋互动」这个场景，基于用户输入生成可直接使用的内容。\n\n# 工作要求\n1. 先判断用户目标和受众，不要直接套空话。\n2. 输出要贴合抖音脚本的真实使用场景和抖音平台习惯。\n3. 给出可复制成品，再补充优化建议。\n4. 如果信息不足，先基于合理假设生成，并列出需要补充的问题。\n\n# 输出结构\n- 成品内容\n- 关键思路\n- 可替换版本\n- 注意事项",
+    "exampleInput": {
+      "视频主题": "请填写",
+      "目标观众": "请填写",
+      "时长": "请填写",
+      "核心观点": "请填写",
+      "转化目标": "请填写"
+    },
+    "exampleOutput": "软件中点击“生成提示词”后生成。",
+    "tags": [
+      "抖音脚本",
+      "福袋互动",
+      "全行业合集"
+    ],
+    "isPro": false,
+    "version": "1.0.0",
+    "updatedAt": "2026-06-30",
+    "tips": "用于抖音脚本的福袋互动场景。建议填入具体对象、目标人群、限制条件和期望语气，输出会更稳定。"
+  }
+]
